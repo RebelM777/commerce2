@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "C:\Users\molly\OneDrive\Desktop\htmlPractice\react\lab4\src\pages\Home.jsx";
+import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Shop from "./Pages/Shop";
 import { createBrowserRouter, RouterProvider } from "react-router";

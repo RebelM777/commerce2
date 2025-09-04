@@ -3,10 +3,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Layout from "./components/layout/Layout";
-import NotFound from "./components/notFound/NotFound";
-import AllProducts from "./components/shop/AllProducts";
-import Category from "./components/shop/Category";
+import Layout from "./components/Layout/Layout";
+import NotFound from "./components/NotFound/NotFound";
+import AllProducts from "./components/Shop/AllProducts";
+import Category from "./components/Shop/Category";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
 

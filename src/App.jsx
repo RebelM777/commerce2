@@ -13,7 +13,7 @@ import Cart from "./Pages/Cart";
 function App() {
   let router = createBrowserRouter([
     {
-      path: "",
+      path: "/",
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },

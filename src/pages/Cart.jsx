@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import { v4 as uuidv4 } from "uuid";
 import CartCard from "../components/Cards/CartCard";
-import { ClearCart } from "../RTX/Slices/CartSlice";
+import { ClearCart } from "../rTX/Slices/CartSlice";
 
 export default function Cart() {
   let cartProducts = useSelector((state) => state.cart);

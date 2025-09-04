@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router";
-import Sidebar from "../Components/Shop/Sidebar";
+import Sidebar from "../components/Shop/Sidebar";
 
 export default function Shop() {
   return (

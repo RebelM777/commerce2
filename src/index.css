@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-pink: #ff69b4;
+  --light-pink: #ffb6c1;
+  --dark-pink: #db7093;
+  --soft-pink: #ffd1dc;
+  --sparkle: #ffecf5;
+}
+
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, #fff0f5 0%, #ffe4e9 50%, #ffd6e0 100%);
+  min-height: 100vh;
+}
+
+
+body {
+  background: linear-gradient(135deg, #fff0f5 0%, #ffe4e9 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  filter: drop-shadow(0 0 1em #ff69b4aa);
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff1493aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #ff66ccaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background: linear-gradient(145deg, #ffffff 0%, #fff5f7 100%);
+  border-radius: 20px;
+  border: 2px solid #ffd1dc;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.15);
+}
+
+.read-the-docs {
+  color: #db7093;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffe4e9;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff69b4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #db7093;
+}
+
+
+.btn-pink {
+  background: linear-gradient(145deg, #ff69b4, #ff1493);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+}
+
+.btn-pink:hover {
+  background: linear-gradient(145deg, #ff1493, #ff69b4);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.4);
+}
+
+
+.text-pink-glow {
+  text-shadow: 0 0 10px rgba(255, 105, 180, 0.5),
+               0 0 20px rgba(255, 105, 180, 0.3),
+               0 0 30px rgba(255, 105, 180, 0.2);
+}
+
+
+.bg-pink-gradient {
+  background: linear-gradient(135deg, #ff69b4 0%, #ffb6c1 100%);
+}
+
+.bg-soft-pink {
+  background: #fff0f5;
+}
+
+
+.border-pink-cute {
+  border: 2px solid #ffd1dc;
+  border-radius: 15px;
+}
+
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+@keyframes heart-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.heart-pulse {
+  animation: heart-pulse 2s ease-in-out infinite;
+}

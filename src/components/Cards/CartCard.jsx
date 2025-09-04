@@ -1,5 +1,5 @@
 import React from "react";
-import { removeFromCart } from "../../RTX/Slices/CartSlice";
+import { removeFromCart } from "../../rTX/Slices/CartSlice";
 import { useDispatch } from "react-redux";
 
 export default function CartCard({ product }) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router";
-import { addToCart } from "../../RTX/Slices/CartSlice";
+import { addToCart } from "../../rTX/Slices/CartSlice";
 
 export default function ProductCard({ product }) {
   let dispatch = useDispatch();

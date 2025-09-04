@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from "../../RTX/Slices/Products";
+import { fetchProducts } from "../../rTX/Slices/Products";
 import { v4 as uuidv4 } from "uuid";
-import ProductCard from "../Cards/ProductCard";
+import ProductCard from "../cards/ProductCard";
 export default function AllProducts() {
   let products = useSelector((state) => state.products);
 

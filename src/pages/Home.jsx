@@ -1,6 +1,6 @@
 import React from "react";
-import ProductCard from "./../Components/Cards/ProductCard";
-import AllProducts from "../Components/Shop/AllProducts";
+import ProductCard from "./../components/Cards/ProductCard";
+import AllProducts from "../components/Shop/AllProducts";
 
 export default function Home() {
   return (

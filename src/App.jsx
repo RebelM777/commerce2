@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import About from "./Pages/About";
 import Shop from "./Pages/Shop";
 import { createBrowserRouter, RouterProvider } from "react-router";
@@ -13,7 +13,7 @@ import Cart from "./Pages/Cart";
 function App() {
   let router = createBrowserRouter([
     {
-      path: "/",
+      path: "",
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },

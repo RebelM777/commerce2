@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import ProductCard from "../Cards/ProductCard";
+import ProductCard from "../cards/ProductCard";
 import { v4 as uuidv4 } from "uuid";
 
 export default function Category() {

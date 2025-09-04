@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import { v4 as uuidv4 } from "uuid";
-import CartCard from "../Components/Cards/CartCard";
+import CartCard from "../components/Cards/CartCard";
 import { ClearCart } from "../RTX/Slices/CartSlice";
 
 export default function Cart() {

@@ -4,7 +4,7 @@ import About from "./Pages/About";
 import Shop from "./Pages/Shop";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Layout from "./Components/Layout/Layout";
-import NotFound from "./Components/NotFound/NotFound";
+import NotFound from "./components/NotFound/NotFound";
 import AllProducts from "./Components/Shop/AllProducts";
 import Category from "./Components/Shop/Category";
 import ProductDetails from "./Pages/ProductDetails";

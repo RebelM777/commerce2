@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./pages/Home";
-import About from "./Pages/About";
-import Shop from "./Pages/Shop";
+import About from "./pages/About";
+import Shop from "./pages/Shop";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Layout from "./Components/Layout/Layout";
 import NotFound from "./components/NotFound/NotFound";
